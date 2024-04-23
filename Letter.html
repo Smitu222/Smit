@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Person.</strong>
+                        <p>
+                            Hii Himuda Haju Pan Vishwas Nathe Thato Ke Tu Mari Life 
+                            Partner Chu But Have Kai Shabdo J nathe Mare Ke Tane Kai Kav 
+                            Tu Aayi Toh Khbr Nai Life Jiva Ne Maja Aava Lage Che Te Mari 
+                            Life Garden Garden Kari Didhi Che Thanku Mari Life Ma Aava Mate 
+                                   Thanku Maru Bataku Tebby Dear I LOVE THE MOSTT❤️
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
+
+
+  
